@@ -1,3 +1,6 @@
+provider “azurerm” {
+version = “~> 1.44”
+}
 resource "azurerm_resource_group" "test" {
   name     = "RG-US-East"
   location = "East US"
