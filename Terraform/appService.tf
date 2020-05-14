@@ -1,3 +1,4 @@
+required_version = ">= 0.11"
 resource "azurerm_resource_group" "test" {
   name     = "RG-US-East"
   location = "East US"
